@@ -1,16 +1,17 @@
-@import './mixins/';
+@import './mixins';
+@import './base';
+@import './globals'
 
 // @include font-face('inter', 'InterRegular', 400, );
 
-header {
-  @include flex-column-all-center;
+// header {
+//   @include flex-column-all-center;
 
-  @include small-desctop{
-  color:brown
-};
-  @include small-tablet{
-  color:aqua
-};
+//   @include small-desctop{
+//   color:brown
+// };
+//   @include small-tablet{
+//   color:aqua
+// };
 
-}
-
+// }
